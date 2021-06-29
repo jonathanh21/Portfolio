@@ -1,0 +1,404 @@
+@import 'buttons';
+
+@font-face {
+    font-family: 'Dancing Script';
+    src: url('../../assests/fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'Cormorant Upright';
+    src: url('../../assests/fonts/Cormorant_Upright/CormorantUpright-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto Slab Thin';
+    src: url('../../assests/fonts/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf');
+}
+
+
+.App {
+    display: block;
+}
+
+
+.name {
+    font-family: 'Dancing Script';
+    font-size: 5rem;
+    font-weight: 300;
+    margin-left: 6%;
+    text-align: center;
+}
+
+
+.title {
+    font-family: 'Cormorant Upright';
+    font-size: 40px;
+    font-weight: 50;
+    padding-top: 9%;
+    margin-left: 125px;
+    text-align: center;
+}
+
+.first {
+    display:flex;
+    flex-direction: column;
+    width:70%;
+    height:100vh;
+    justify-content: center;
+    align-items:flex-start;
+}
+
+.second {
+    width:70%;
+    height:110vh;
+}
+
+.landingContainer {
+    display:flex;
+    width:100%;
+}
+
+ul.menu {
+    position:fixed;
+    margin: 2% 0;
+    height: 100%;
+    width:30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5%;
+    list-style: none;
+
+    li {
+        padding:0;
+        margin:0;
+        font-family: 'Cormorant Upright';
+        font-size: 25px;
+        width:80%;
+        font-weight: 50;
+        margin: 10px 0;
+    }
+
+}
+
+.right {
+    margin-left: 30%;
+}
+
+.cover {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 110vh;
+}
+
+.coverHeader {
+    text-align: center;
+    font-family: 'Cormorant Upright';
+    font-size: 100px;
+    opacity: 0.1;
+    letter-spacing: 0.3em;
+    padding-top:50px;
+}
+
+.coverContent {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+    margin-top: 100px;
+}
+
+.coverButton {
+    font-family: 'Cormorant Upright';
+    font-size: 30px;
+}
+
+.skills {
+    height:100vh
+}
+
+.human {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:60px;
+    height:100vh;
+}
+
+.professional {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:60px;
+    height:100vh;
+}
+
+.professionalText {
+    font-family: 'Roboto';
+    font-size: 22px;
+    font-weight: bold;
+    padding: 7% 4% 0 3%;
+    text-align: center;
+    line-height: 1.5em;
+    color:grey;
+    display:flex;
+    align-items: center;    
+}
+
+.backArrow {
+    align-self: flex-end;
+    padding:15px 55px 50px 0;
+    height:8vh;
+    opacity: 0.5;
+}
+
+.container {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    height:55vh;
+
+    .humanText {
+        font-family: 'Roboto';
+        color:grey;
+        font-size: 22px;
+        font-weight: bold;
+        padding: 60px 55px 10px 10px;
+        text-align: center;
+        line-height: 1.5em;
+        display:flex;
+        align-items: center;
+    }
+}
+
+.aboutContainer {
+    opacity: 0;
+}
+
+.bg {
+    position:absolute;
+    z-index: -1;
+    font-size: 160px;
+    opacity:0.05;
+}
+
+strong {
+    font-family: 'Cormorant Upright';
+    font-size: 35px;
+    letter-spacing: 0.03em;
+    font-weight: 100;
+    padding:0 10px
+}
+
+.iconSkill {
+    height:60px;
+    width:60px
+}
+
+.skillsRow {
+    display:flex;
+    flex-direction: column;
+}
+
+.skillBlock {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Cormorant Upright';
+    font-size: 15px;
+    font-weight:300;
+    padding:20px;
+    width:110px
+}
+
+.longIcon {
+    width:110px;
+}
+
+.skillsContainer {
+    width:100%;
+    font-family: 'Cormorant Upright';
+    font-size: 30px;
+    line-height: 2.2em;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left:30px;
+    padding-top: 80px;
+}
+
+.skillsCol {
+    margin-right:80px;
+    padding-left:20px;
+    color:grey;
+}
+
+.projectsImg {
+    width:450px;
+    filter:grayscale(70%)
+}
+
+.skillRow {
+    display:flex;
+    flex-direction: row;
+}
+
+.flex {
+    display:flex;
+    margin: 25px 20px 0 20px;
+    height: 70%;
+}
+
+.leftImg {
+    z-index: -1;
+    position:absolute;
+    height:250px;
+    width:375px;
+    transform: translate(0px,40px);
+}
+
+.centerImg {
+    z-index: 1;
+    position:absolute;
+    height:325px;
+    width:500px;
+    transform: translate(110px,0px);
+}
+
+.rightImg {
+    z-index: -1;
+    position:absolute;
+    height:250px;
+    width:375px;
+    transform:translate(355px,40px);
+}
+
+.btnCarrouselLeft {
+    position:absolute;
+    height:325px;
+    z-index: 1;
+    background:none;
+    width:130px;
+    border:none;
+    color:grey;
+    transition: all 0.1s ease-out;
+
+    :hover {
+        cursor:pointer;
+        transform: scale(1.2);
+        transition: all 0.1s ease-out;
+    }
+}
+
+.btnCarrouselRight {
+    position:absolute;
+    height:325px;
+    transform: translate(630px,0px);
+    z-index: 1;
+    background:none;
+    width:127px;
+    border:none;
+
+    :hover {
+        cursor:pointer;
+        transform: scale(1.1);
+        transition: all 0.1s ease-in-out;
+    }
+}
+
+.arrows {
+    height:6vh;
+    opacity:0.5
+}
+
+.projectsHeader {
+    height:37%;
+    font-family: 'Cormorant Upright';
+    font-size: 75px;
+    opacity: 0.4;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.2em;
+    box-sizing: border-box;
+    text-align: center;
+    width:90%;
+    padding-top:100px;
+}
+
+.note {
+    font-family: 'Roboto';
+    font-size: 22px;
+    padding-top:30px;
+    font-weight: bold;
+    opacity:100%;
+    text-align: center;
+    line-height: 1.5em;
+    align-items: center;
+}
+
+.textImg {
+    font-family: 'Roboto';
+    font-size: 20px;
+    color:grey;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.5em;
+    display:flex;
+    padding-top: 7%;
+    align-items: flex-start;
+    z-index: 3;
+    position:absolute;
+    height:324px;
+    width:760px;
+    transform: translate(-2px,-2px);
+    background-color: rgb(255, 254, 254);
+}
+
+.infoIcon {
+    padding:20px 110px 0 0; 
+    display:flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+    height:20px;
+
+}
+
+.contact {
+    margin-top:200px;
+    padding-top:200px;
+    height:110vh
+}
+
+.contactHeader {
+    text-align: center;
+    font-family: 'Cormorant Upright';
+    font-size: 120px;
+    opacity: 0.1;
+    letter-spacing: 0.3em;
+    padding-top:50px;
+}
+
+.contactRow {
+    display:flex;
+    justify-content:flex-start;
+    width: 70%
+}
+
+.contactBlock {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    height:80px;
+    padding:30px;
+}
+
+.iconContact {
+    height:100px;
+    width:100px
+}

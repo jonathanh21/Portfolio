@@ -1,0 +1,46 @@
+.coverButton {
+  width: 8em;
+  color: grey;
+  border-left: 0.08em solid;
+  position: relative;
+  cursor: pointer;
+}
+
+.coverButton::before,
+.coverButton::after {
+  content: '';
+  position: absolute;
+  width: inherit;
+  border-left: inherit;
+  z-index: -1;
+}
+
+.coverButton::before {
+  height: 80%;
+  top: 10%;
+  left: calc(-0.15em - 0.08em * 2);
+  filter: brightness(0.8);
+}
+
+.coverButton::after {
+  height: 60%;
+  top: 20%;
+  left: calc(-0.15em * 2 - 0.08em * 3);
+  filter: brightness(0.6);
+}
+
+.coverButton span {
+  position: relative;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: white;
+  display: flex;
+  transform: translateX(calc(-0.15em * 3 - 0.08em * 2));
+  transition: 0.3s;
+  text-align: center;
+}
+
+.coverButton:hover span {
+  transform: translateX(0.15em);
+}
+/*# sourceMappingURL=buttons.css.map */
