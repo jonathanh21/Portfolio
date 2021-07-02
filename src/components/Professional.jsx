@@ -32,7 +32,7 @@ const Professional = (props) => {
                     ABOUT
                 </div>
                 <div className='professionalText'>
-                    <p> A developer who is passionate about <strong>Front and Back - ende development</strong> and the whole user experience. I like to build
+                    <p> A developer who is passionate about <strong>Front and Back - end development</strong> and the whole user experience. I like to build
                         Apps where the user feels comfortable with the design and the interaction. Also, I am really
                         good at solving logic problems with a <strong>very special thinking process</strong> that allows me to evaluate the
                         information faster than the average. 
