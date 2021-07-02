@@ -1,5 +1,6 @@
 import React, {useEffect} from 'react';
 import anime from 'animejs/lib/anime.es.js';
+import icon from '../assests/icons/backarrow.png'
 
 const Human = (props) => {
 
@@ -25,7 +26,7 @@ const Human = (props) => {
 
     return (
         <div className='human aboutContainer'>
-            <img className='backArrow' onClick={props.handleCover}src="https://img.icons8.com/ios-filled/50/000000/circled-chevron-left.png"/>
+            <img className='backArrow' onClick={props.handleCover} src={icon}/>
             <div className='container'>
                 <div className='coverHeader bg'>
                     ABOUT

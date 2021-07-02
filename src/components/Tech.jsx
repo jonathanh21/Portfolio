@@ -16,6 +16,7 @@ import rxjs from '../assests/icons/rxjs.png'
 import sass from '../assests/icons/sass.png'
 import sequelize from '../assests/icons/sequelize.png'
 import typescript from '../assests/icons/typescript.png'
+import icon from '../assests/icons/backarrow.png'
 
 
 const Tech = (props) => {
@@ -49,7 +50,7 @@ const Tech = (props) => {
 
     return (
         <div className='human aboutContainer'>
-            <img className='backArrow' onClick={props.handleCover} src="https://img.icons8.com/ios-filled/50/000000/circled-chevron-left.png"/>
+            <img className='backArrow' onClick={props.handleCover} src={icon}/>
                 <div className='container'>
                 <div className='coverHeader bg'>
                     SKILLS
