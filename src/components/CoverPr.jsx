@@ -118,7 +118,7 @@ useEffect(()=> {
                 width:['0px','760px'],
                 opacity:['100%'],
                 fontSize:['0px','20px'],
-                translateX:['750px','0'],
+                translateX:['740px','0'],
                 easing: 'easeInOutQuad',
                 duration: 600,
             })
@@ -126,7 +126,7 @@ useEffect(()=> {
             anime({
                 targets: '.textImg',
                 height:['324px','0px'],
-                width:['750px','0px'],
+                width:['740px','0px'],
                 opacity:['100%','0%'],
                 fontSize:['20px','0px'],
                 translateX:['0','760px'],
